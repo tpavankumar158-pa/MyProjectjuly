@@ -1,0 +1,4 @@
+class Test(models.Model):
+       TId = models.IntegerField()
+       TName = models.CharField(max_length)
+       Tmarks = models.IntegerField()
